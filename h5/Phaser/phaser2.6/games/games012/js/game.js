@@ -777,6 +777,7 @@ game.State.play={
                         tween.onComplete.add(function(){
                             canKill = false;
                             console.log('combo: ' + combo);
+							window.open("https://maoudamashii.jokersounds.com/");
                             if(combo > 0){
                                 // combo 文字
                                 var comboText1 = game.add.text(700, 150, combo, hitStyle1);
