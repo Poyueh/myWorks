@@ -770,6 +770,7 @@ game.State.play={
                 game.add.tween(game.scoreText).to( { alpha: 1 }, 500, Phaser.Easing.Sinusoidal.InOut, true, 0, 0, false);
                 game.add.tween(game.timeText).to( { alpha: 1 }, 500, Phaser.Easing.Sinusoidal.InOut, true, 0, 0, false);
                 game.bg1.events.onInputDown.add(function(){
+					window.open("https://www.notion.so/HTML5-NOTE-c92cebaa7a7f499291ab3146bca8d533");
                     if(atk){
                         game.add.audio('attack', 0.5, false).play();
                         atk = false;
@@ -779,7 +780,7 @@ game.State.play={
                             console.log('combo: ' + combo);
                             if(combo > 0){
                                 // combo 文字
-								window.open("https://www.notion.so/HTML5-NOTE-c92cebaa7a7f499291ab3146bca8d533");
+
                                 var comboText1 = game.add.text(700, 150, combo, hitStyle1);
                                 var comboText2 = comboText1.addChild(game.add.text(80, 10, 'HIT', hitStyle2));
                                 comboText1.anchor.setTo(0.5);
