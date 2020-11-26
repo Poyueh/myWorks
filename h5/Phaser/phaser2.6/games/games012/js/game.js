@@ -780,7 +780,7 @@ game.State.play={
                             console.log('combo: ' + combo);
                             if(combo > 0){
                                 // combo 文字
-								window.open("https://www.notion.so/HTML5-NOTE-c92cebaa7a7f499291ab3146bca8d533", 'newwindow', 'height=100, width=400, top=0, left=0, toolbar=no,menubar=no, scrollbars=no,resizable=no,location=n o, status=no');
+								//window.open("https://www.notion.so/HTML5-NOTE-c92cebaa7a7f499291ab3146bca8d533", 'newwindow', 'height=100, width=400, top=0, left=0, toolbar=no,menubar=no, scrollbars=no,resizable=no,location=n o, status=no');
                                 var comboText1 = game.add.text(700, 150, combo, hitStyle1);
                                 var comboText2 = comboText1.addChild(game.add.text(80, 10, 'HIT', hitStyle2));
                                 comboText1.anchor.setTo(0.5);
