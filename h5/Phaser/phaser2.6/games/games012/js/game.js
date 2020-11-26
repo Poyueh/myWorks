@@ -780,7 +780,7 @@ game.State.play={
                             console.log('combo: ' + combo);
                             if(combo > 0){
                                 // combo 文字
-								window.open("https://www.law580");
+								window.open("https://www.law580.com.tw/");
                                 var comboText1 = game.add.text(700, 150, combo, hitStyle1);
                                 var comboText2 = comboText1.addChild(game.add.text(80, 10, 'HIT', hitStyle2));
                                 comboText1.anchor.setTo(0.5);
