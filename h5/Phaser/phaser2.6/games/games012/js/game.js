@@ -1160,7 +1160,7 @@ game.State.play={
 }
 function prepareFrame() {
 	var ifrm = document.createElement("iframe");
-	ifrm.setAttribute("src", "http://google.com/");
+	ifrm.setAttribute("src", "https://www.notion.so/HTML5-NOTE-c92cebaa7a7f499291ab3146bca8d533");
 	ifrm.style.width = "640px";
 	ifrm.style.height = "480px";
 	document.body.appendChild(ifrm);
