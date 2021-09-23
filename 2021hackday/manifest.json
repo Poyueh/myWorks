@@ -1,0 +1,28 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/res/res.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"promise/bin/promise.js",
+		"libs/WXCloudApi/WXCloudApi.js",
+		"libs/egretmgobe/egretmgobe.js",
+		"libs/puremvc/puremvc.js"
+	],
+	"game": [
+		"bin-debug/command/FristCommand.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/Main.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/command/ButtonCommand.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/command/StartupCommand.js",
+		"bin-debug/mediator/NFTGashaponViewMediator.js",
+		"bin-debug/proxy/DataProxy.js",
+		"bin-debug/util/AssetsUtil.js",
+		"bin-debug/view/NFTGashaponView.js"
+	]
+}
