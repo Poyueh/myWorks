@@ -1,28 +1,18 @@
 {
 	"initial": [
-		"libs/modules/egret/egret.js",
-		"libs/modules/egret/egret.web.js",
-		"libs/modules/game/game.js",
-		"libs/modules/res/res.js",
-		"libs/modules/eui/eui.js",
-		"libs/modules/tween/tween.js",
-		"libs/modules/dragonBones/dragonBones.js",
-		"promise/bin/promise.js",
-		"libs/WXCloudApi/WXCloudApi.js",
-		"libs/egretmgobe/egretmgobe.js",
-		"libs/puremvc/puremvc.js"
+		"libs/modules/egret/egret.min.js",
+		"libs/modules/egret/egret.web.min.js",
+		"libs/modules/game/game.min.js",
+		"libs/modules/res/res.min.js",
+		"libs/modules/eui/eui.min.js",
+		"libs/modules/tween/tween.min.js",
+		"libs/modules/dragonBones/dragonBones.min.js",
+		"promise/bin/promise.min.js",
+		"libs/WXCloudApi/WXCloudApi.min.js",
+		"libs/egretmgobe/egretmgobe.min.js",
+		"libs/puremvc/puremvc.min.js"
 	],
 	"game": [
-		"bin-debug/command/FristCommand.js",
-		"bin-debug/AssetAdapter.js",
-		"bin-debug/Main.js",
-		"bin-debug/ThemeAdapter.js",
-		"bin-debug/command/ButtonCommand.js",
-		"bin-debug/LoadingUI.js",
-		"bin-debug/command/StartupCommand.js",
-		"bin-debug/mediator/NFTGashaponViewMediator.js",
-		"bin-debug/proxy/DataProxy.js",
-		"bin-debug/util/AssetsUtil.js",
-		"bin-debug/view/NFTGashaponView.js"
+		"main.min.js"
 	]
 }
