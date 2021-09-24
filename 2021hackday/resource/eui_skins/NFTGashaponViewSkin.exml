@@ -2,8 +2,6 @@
 <e:Skin class="skins.NFTGashaponViewSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui"
         xmlns:w="http://ns.egret.com/wing">
 	<e:Image id="bgImg" width="1920" height="1080" source="BG_png" horizontalCenter="0" verticalCenter="0" />
-	<e:Group id="gashaponGP" horizontalCenter="0" verticalCenter="0" />
-	<e:Group id="touchGP" height="250" width="250" horizontalCenter="0" verticalCenter="70" />
 	<e:Group id="leftUIGP" touchEnabled="true" width="600" height="250" x="0" y="0">
 		<e:Image id="leftOnImg" width="606" height="1080" x="0" y="0" scaleX="1" scaleY="1" source="Left_Menu_On_png" />
 		<e:Image id="leftOffImg" width="606" height="1080" x="0" y="0" scaleX="1" scaleY="1" source="Left_Menu_Off_png"
@@ -14,4 +12,8 @@
 		<e:Image id="rightOffImg" width="606" height="1080" y="0" scaleX="1" scaleY="1" x="0" source="Right_Menu_Off_png"
 		         visible="false" />
 	</e:Group>
+	<e:Group id="gashaponGP" horizontalCenter="0" verticalCenter="0" touchEnabled="false" />
+	<e:Image id="backBtn" source="Return_png" visible="false" horizontalCenter="300" verticalCenter="-220" />
+	<e:Group id="touchGP" height="450" width="450" horizontalCenter="0" verticalCenter="70" />
+	<e:Group id="enterGP" height="500" width="500" horizontalCenter="0" verticalCenter="70" />
 </e:Skin>

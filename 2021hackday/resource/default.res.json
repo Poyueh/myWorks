@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "Award_01_png,Award_02_png,Award_03_png,Award_04_png,Award_05_png,Award_06_png,Award_07_png,Award_08_png,Award_09_png,Award_10_png,BG_png,Left_Menu_Off_png,Left_Menu_On_png,Right_Menu_Off_png,Right_Menu_On_png,Game_tex_png,Game_tex_json,Game_ske_json",
+			"keys": "Award_01_png,Award_02_png,Award_03_png,Award_04_png,Award_05_png,Award_06_png,Award_07_png,Award_08_png,Award_09_png,Award_10_png,BG_png,Left_Menu_Off_png,Left_Menu_On_png,Right_Menu_Off_png,Right_Menu_On_png,Game_tex_png,Game_tex_json,Game_ske_json,Return_png",
 			"name": "preload"
 		}
 	],
@@ -225,6 +225,11 @@
 			"url": "assets/DragonBone/Game_ske.json",
 			"type": "json",
 			"name": "Game_ske_json"
+		},
+		{
+			"url": "assets/Return.png",
+			"type": "image",
+			"name": "Return_png"
 		}
 	]
 }
